@@ -27,10 +27,7 @@ public class Connect {
         System.out.println("Database Connected"); 
     }
     
-    public void Query() throws SQLException{
-        
-       
-    }
+  
     
     public void Display() throws SQLException{
        
