@@ -22,6 +22,7 @@ public class Connect {
         Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
         System.out.println("Driver loaded");
        
+        
         System.out.println("start of connection");
         connection = DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\KC\\Documents\\NetBeansProjects\\HappyUCan\\src\\happyucan\\DataBase\\wkennel.mdb");
         System.out.println("Database Connected"); 
