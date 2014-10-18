@@ -85,7 +85,6 @@ public class Connect {
         statement.close();
         
     }
-     
     
     public void CloseConn() throws SQLException{
         connection.close();
