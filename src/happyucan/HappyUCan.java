@@ -32,11 +32,12 @@ public class HappyUCan {
         
         connect.Connect();
         
-        connect.Display();
-        connect.Updating();
-        connect.Display();
-        connect.Updating("FROM OBJECT CALL");
-        connect.Display();
+        connect.InnerJoin();
+//        connect.Display();
+//        connect.Updating();
+//        connect.Display();
+//        connect.Updating("FROM OBJECT CALL");
+//        connect.Display();
         connect.CloseConn();
   
        }
