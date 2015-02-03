@@ -33,7 +33,7 @@ public class Connect {
     
     public void InnerJoin() throws SQLException{
         // INNER JOIN SQL, joining the GroomingLog, Pets, Clients Tables in a SQL statement
-        // The ResultSet is scrollable.
+        // The ResultSet is scrollable
         
         System.out.println("start of query statement");
         statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
